@@ -1,9 +1,9 @@
 package segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column;
 
-import android.support.annotation.IntDef;
-
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
+
+import androidx.annotation.IntDef;
 
 import static segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentBackgroundType.BOTTOM_LEFT_BG;
 import static segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentBackgroundType.BOTTOM_RIGHT_BG;
@@ -19,16 +19,16 @@ import static segmented_control.widget.custom.android.com.segmentedcontrol.item_
 /**
  * Created by Robert Apikyan on 9/12/2017.
  */
-@IntDef(value = {SINGLE_BG,
-        TOP_SINGLE_BG,
-        TOP_LEFT_BG,
-        TOP_LEFT_SINGLE_BG,
-        TOP_RIGHT_SINGLE_BG,
-        TOP_RIGHT_BG,
-        MIDDLE_BG,
-        BOTTOM_SINGLE_BG,
-        BOTTOM_LEFT_BG,
-        BOTTOM_RIGHT_BG})
+@IntDef(value = { SINGLE_BG,
+                  TOP_SINGLE_BG,
+                  TOP_LEFT_BG,
+                  TOP_LEFT_SINGLE_BG,
+                  TOP_RIGHT_SINGLE_BG,
+                  TOP_RIGHT_BG,
+                  MIDDLE_BG,
+                  BOTTOM_SINGLE_BG,
+                  BOTTOM_LEFT_BG,
+                  BOTTOM_RIGHT_BG})
 @Retention(RetentionPolicy.SOURCE)
 public @interface SegmentBackgroundType {
     int SINGLE_BG = 0;

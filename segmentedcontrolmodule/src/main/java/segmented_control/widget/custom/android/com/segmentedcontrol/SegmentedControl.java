@@ -3,15 +3,15 @@ package segmented_control.widget.custom.android.com.segmentedcontrol;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
-import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 
 import java.util.List;
 
+import androidx.annotation.NonNull;
 import section_layout.widget.custom.android.com.sectionlayout.SectionLayout;
-import segmented_control.widget.custom.android.com.segmented_control.R;
+import segmented_control.widget.R;
 import segmented_control.widget.custom.android.com.segmentedcontrol.custom_segment.SegmentAdapterImpl;
 import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentAdapter;
 import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentViewHolder;
@@ -105,7 +105,7 @@ public class SegmentedControl<D> extends ComponentFrameLayout<SegmentedControlVi
 
     private void fetchAccentColor() {
         TypedValue tv = new TypedValue();
-        TypedArray typedArray = getContext().obtainStyledAttributes(tv.data, new int[]{R.attr.colorAccent});
+        TypedArray typedArray = getContext().obtainStyledAttributes(tv.data, new int[]{ androidx.appcompat.R.attr.colorAccent});
         try {
             getControllerComponent().setAccentColor(typedArray.getColor(0, 0));
         } finally {

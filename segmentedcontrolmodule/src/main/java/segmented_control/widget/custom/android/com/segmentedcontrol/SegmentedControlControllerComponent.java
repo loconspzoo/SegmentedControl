@@ -1,7 +1,6 @@
 package segmented_control.widget.custom.android.com.segmentedcontrol;
 
 import android.graphics.Typeface;
-import android.support.annotation.Nullable;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,6 +8,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+import androidx.annotation.Nullable;
 import section_layout.widget.custom.android.com.sectionlayout.SectionLayout;
 import section_layout.widget.custom.android.com.sectionlayout.distributive_section_layout.DistributiveSectionLayout;
 import segmented_control.widget.custom.android.com.segmentedcontrol.item_row.SegmentRowAdapter;

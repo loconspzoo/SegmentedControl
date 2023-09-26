@@ -1,9 +1,9 @@
 package segmented_control.widget.custom.android.com.segmentedcontrol.item_row;
 
-import android.support.annotation.NonNull;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import androidx.annotation.NonNull;
 import section_layout.widget.custom.android.com.sectionlayout.SectionLayout;
 import section_layout.widget.custom.android.com.sectionlayout.distributive_section_layout.DistributiveSectionLayout;
 import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentAdapter;

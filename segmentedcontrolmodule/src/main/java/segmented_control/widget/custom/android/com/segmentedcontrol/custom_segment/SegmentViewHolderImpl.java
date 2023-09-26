@@ -4,14 +4,14 @@ import android.animation.ValueAnimator;
 import android.annotation.SuppressLint;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.support.annotation.NonNull;
 import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import segmented_control.widget.custom.android.com.segmented_control.R;
+import androidx.annotation.NonNull;
+import segmented_control.widget.R;
 import segmented_control.widget.custom.android.com.segmentedcontrol.item_row_column.SegmentViewHolder;
 
 import static segmented_control.widget.custom.android.com.segmentedcontrol.utils.Utils.createBackgroundAnimation;
